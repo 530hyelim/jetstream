@@ -1,0 +1,51 @@
+# ---- Logs ----
+*.log
+
+# ---- OS / Editor ----
+.DS_Store
+.idea/
+.vscode/
+.fleet/
+.zed/
+.nova/
+
+# ---- Laravel ----
+.env
+.env.*
+!.env.example
+
+# php artisan storage:link
+/public/storage
+/storage/*.key
+/storage/framework/*
+!/storage/framework/.gitignore
+
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# ---- Node ----
+/node_modules
+npm-debug.log*
+yarn-error.log*
+
+# ---- Composer ----
+/vendor
+
+# ---- Tests / Coverage ----
+/coverage/
+.phpunit.result.cache
+/.phpunit.cache
+
+# ---- Build ----
+/public/build
+/public/hot
+
+# ---- Tools ----
+#.dbeaver/
+.phpactor.json
+/auth.json
+
+# ---- Misc ----
+Homestead.json
+Homestead.yaml
+Thumbs.db
